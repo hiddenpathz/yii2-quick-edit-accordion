@@ -1,0 +1,38 @@
+{
+  "name": "hiddenpathz/yii2-quick-edit-accordion",
+  "description": "An asynchronous widget for quick attribute editing for Yii2",
+  "keywords": [
+    "yii",
+    "extension",
+    "hiddenpathz",
+    "widget",
+    "yii2",
+    "yii 2",
+    "accordion",
+    "quick",
+    "edit"
+  ],
+  "type": "yii2-extension",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Nebolsin",
+      "email": "dev@dmitry-nebolsin.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-bootstrap": "~2.0.0 || ~2.1.0"
+  },
+  "support": {
+    "issues": "https://github.com/hiddenpathz/yii2-quick-edit-accordion/issues?state=open",
+    "source": "https://github.com/hiddenpathz/yii2-quick-edit-accordion"
+  },
+  "autoload": {
+    "psr-4": {
+      "hiddenpathz\\QuickEditAccordion\\": "src/"
+    }
+  }
+}
